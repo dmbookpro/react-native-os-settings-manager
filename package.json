@@ -1,0 +1,30 @@
+{
+  "name": "react-native-os-settings-manager",
+  "version": "1.0.0",
+  "description": "Native module with tools to interact with Android/IOS settings.",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "android",
+		"ios",
+    "mobile",
+    "module",
+    "settings",
+		"notifications"
+  ],
+  "author": {
+    "name": "Theo Henry de Villeneuve"
+  },
+  "homepage": "https://github.com/dmbookpro/react-native-os-settings-manager",
+  "bugs": {
+    "url": "https://github.com/dmbookpro/react-native-os-settings-manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dmbookpro/react-native-os-settings-manager.git"
+  },
+  "license": "MIT",
+	"peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
