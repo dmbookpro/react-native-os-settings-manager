@@ -17,7 +17,6 @@ RCT_EXPORT_MODULE(RNOsSettingsManager);
 RCT_EXPORT_METHOD(areNotificationsEnabled:(RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject)
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
     UIUserNotificationSettings *grantedSettings = [[UIApplication sharedApplication] currentUserNotificationSettings];
     NSMutableDictionary *dict = [[NSMutableDictionary alloc]init];
 
