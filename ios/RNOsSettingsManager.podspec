@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNOsSettingsManager
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/dmbookpro/react-native-os-settings-manager/blob/master/README.md"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
